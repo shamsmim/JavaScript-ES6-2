@@ -1,0 +1,25 @@
+
+		Task-2
+	1. Get first name from user
+	2. get last name from user
+	3. add without using library function 
+	4. print full name
+	5. total length of full name 
+	6. convert full name into uppercase
+	7. print the 2nd position from full name 
+
+	Task : 02
+
+	var firstName = prompt("Enter your first name:");
+
+	var lastName = prompt("Enter your last name:");
+
+	var fullName = firstName + lastName;
+
+	document.write(fullName);
+
+	document.write(" Length of fullName: "+fullName.length);
+
+	document.write(fullName.toUpperCase());
+
+	document.write(fullName.charAt(1));
