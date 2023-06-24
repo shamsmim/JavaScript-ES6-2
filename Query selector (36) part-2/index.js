@@ -1,0 +1,1 @@
+document.querySelector(".my-div").innerHTML = "New Text"
